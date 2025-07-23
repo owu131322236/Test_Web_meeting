@@ -103,7 +103,7 @@ with tab2: # 会議アシスタント (チャット形式)
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
 
-    user_utterance = st.text_area("あなたの発言", key="user_utterance_input", value=st.session_state.current_user_utterance)
+    user_utterance = st.text_input("あなたの発言", key="user_utterance_input", value=st.session_state.current_user_utterance)
     send_utterance_button = st.button("発言を送信", key="send_utterance_button")
 
     if send_utterance_button and user_utterance:
