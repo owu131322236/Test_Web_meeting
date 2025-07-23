@@ -3,5 +3,6 @@ pandas
 altair
 transformers
 torch
-scikit-learn 
+scikit-learn
 accelerate
+fugashi
