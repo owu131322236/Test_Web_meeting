@@ -10,7 +10,7 @@ from transformers import AutoModel, AutoTokenizer
 import streamlit as st
 import collections
 
-model_name = "intfloat/multilingual-e5-small"
+model_name = "cl-tohoku/bert-base-japanese-v2"
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
