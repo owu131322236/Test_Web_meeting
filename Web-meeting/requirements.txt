@@ -1,0 +1,15 @@
+streamlit
+transformers
+torch
+scikit-learn
+numpy
+unidic-lite
+accelerate
+streamlit-webrtc 
+av
+SpeechRecognition
+openai
+collections
+time
+pandas
+sqlite3
